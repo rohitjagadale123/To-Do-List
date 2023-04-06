@@ -1,0 +1,54 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .task-text {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .task-buttons {
+    display: flex;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
